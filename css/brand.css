@@ -1,0 +1,58 @@
+/* AjiraLink Admin — Brand Tokens & Base
+   Extracted verbatim from Admin_AjiraLink.html */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --brand-blue: #003580;
+  --brand-yellow: #ffb700;
+  --brand-btn-blue: #006ce4;
+  --brand-soft: #EBF3FF;
+  --text: #000000;
+  --text-dark: #1a1a1a;
+  --text-muted: #000000E6;
+  --text-soft: #00000099;
+  --border: #EAEAEA;
+  --danger-color: #E53935;
+  --danger-soft: #FDECEA;
+  --logo-bg: #eef1f5;
+  --skeleton-bg: #eef0f3;
+  --success-dot: #00A650;
+}
+
+html, body {
+  min-height: 100%;
+  background: #FFFFFF;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  background: #FFFFFF;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  background: #FFFFFF;
+  padding-bottom: 90px;
+}
+.scroll-area::-webkit-scrollbar { display: none; }
