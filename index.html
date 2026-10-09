@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Admin — AjiraLink</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="css/brand.css" />
+<link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <header class="app-header">
+    <div class="app-logo-text">Ajira<span>Link</span></div>
+    <button class="hamburger-menu-btn" aria-label="Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <div class="top-tabs">
+    <button class="top-tab active" id="tab-active" data-status="published">Active Jobs</button>
+    <button class="top-tab" id="tab-expired" data-status="expired">Expired Jobs</button>
+  </div>
+
+  <div class="scroll-area">
+    <div id="job-list"></div>
+  </div>
+
+  <button class="floating-post-btn" id="postJobBtn" aria-label="Post Job">
+    <i class="fas fa-plus"></i>
+  </button>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

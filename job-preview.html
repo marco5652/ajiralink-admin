@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Job Preview — AjiraLink Admin</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="css/brand.css" />
+<link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <div class="page-header">
+    <div class="row">
+      <button class="back-btn" aria-label="Back" id="backBtn">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <div>
+        <h2>Job Preview</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-area">
+    <div class="details-body" id="preview-body-content"></div>
+
+    <div class="form-body" style="padding-top:0;">
+      <button class="btn-submit-post" id="postFromPreviewBtn">
+        <i class="fas fa-paper-plane"></i> Post Job
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/lookups.js"></script>
+<script src="js/job-form.js"></script>
+<script src="js/job-preview.js"></script>
+</body>
+</html>
