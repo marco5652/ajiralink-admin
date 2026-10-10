@@ -1,7 +1,8 @@
 /* AjiraLink Admin — API Client
    Same contract as public. Only documented endpoints. */
 
-const API_BASE = 'https://friendly-bassoon-6965w77w4rxw3x64q-8000.app.github.dev/api/v1';
+const API_BASE = 'https://ajiralink-6391e7bd4531.herokuapp.com/api/v1';
+
 
 function getToken() { return localStorage.getItem('ajiralink_token'); }
 function setToken(t) { localStorage.setItem('ajiralink_token', t); }
